@@ -196,7 +196,7 @@
                 document.getElementById('loader-modal').style.display = 'flex';
                 
                 const rawUrl = result.info.secure_url;
-                const hdUrl = rawUrl.replace("/upload/", "/upload/f_auto,q_auto:best,e_upscale,e_improve/");
+                const hdUrl = rawUrl.replace("/upload/", "/upload/f_auto,q_auto:best,e_upscale,e_improve,esharpen:100/");
 
                 const img = new Image();
                 img.src = hdUrl;
